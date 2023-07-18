@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  background: cadetblue;
+  padding: 10px 20px;
+  border-radius: 40px;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.caption-icon p {
+  margin: 0;
+  width: 150px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.caption-icon__icon {
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.card .value {
+  font-size: 50px;
+}

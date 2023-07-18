@@ -1,9 +1,6 @@
 .title-text {
-    margin: 0;
-    margin-bottom: 10px;
-    font-size: 50px;
-    left: 0;
-    border-bottom: 4px solid #66A3AF;
-    width: 200px;
+  margin: 0;
+  font-size: 50px;
+  border-bottom: 4px solid #66a3af;
+  width: 200px;
 }
-

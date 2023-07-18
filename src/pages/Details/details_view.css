@@ -1,6 +1,7 @@
 .elements-container {
-  margin-left: 20px;
+  margin: 0 20px;
 }
+
 .header-div {
   display: flex;
   flex-direction: row;
@@ -11,25 +12,28 @@
   align-content: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .choose-buttons button {
   margin-right: 50px;
 }
 
-.value-cards-row-1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.value-cards-row-2 {
+.value-cards {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.value-cards-row-2 .Card {
-  margin-left: 40px;
+.value-cards-row-2 .card {
+  margin-left: 60px;
+}
+
+.elements-container .bottom_buttons .action-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }

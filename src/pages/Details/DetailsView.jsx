@@ -38,19 +38,15 @@ function DetailsView() {
       </div>
       <div className="pits-review"></div>
       <div className="value-cards value-cards-row-1">
-        <ValueCard caption={"Valor real dia"} ammount={500} />
-        <ValueCard caption={"Valor real dia"} ammount={500} />
-        <ValueCard caption={"Valor real dia"} ammount={500} />
+        <ValueCard caption={"Valor real del dia"} ammount={500} />
+        <ValueCard caption={"Valor semanal ISO"} ammount={500} />
+        <ValueCard caption={"Valor semanal movil"} ammount={500} />
       </div>
       <div className="value-cards value-cards-row-2">
-        <ValueCard caption={"Valor real dia"} ammount={500} />
-        <ValueCard caption={"Valor real dia"} ammount={500} />
+        <ValueCard caption={"Valor real mensual"} ammount={500} />
+        <ValueCard caption={"Valor real anual"} ammount={500} />
       </div>
       <div className="bottom-buttons">
-        <ActionButton
-          buttonText={"Reporte general"}
-          handleCLick={actionButtonClick}
-        />
         <ActionButton
           buttonText={"Cerrar sesion"}
           handleCLick={actionButtonClick}
