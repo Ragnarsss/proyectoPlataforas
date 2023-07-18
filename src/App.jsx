@@ -1,16 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Login } from "./pages/Login";
-import { Dashboard } from "./pages/Dashboard";
+import "./App.css";
+import DetailsView from "./pages/Details/DetailsView";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="*" element={<>NOT FOUND</>} />
-        <Route path="/dashboard" element={<Dashboard />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <DetailsView />
+    </>
   );
 }
 

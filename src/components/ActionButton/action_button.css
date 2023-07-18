@@ -1,0 +1,15 @@
+.action-button {
+  border: none;
+  border-radius: 40px;
+  padding: 0px;
+  background-color: #66a3af;
+}
+
+.action-button p {
+  color: white;
+  margin: 15px 15px;
+}
+
+.action-button:hover {
+  background-color: rgb(218, 128, 27);
+}

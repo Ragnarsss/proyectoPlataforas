@@ -1,0 +1,35 @@
+.elements-container {
+  margin-left: 20px;
+}
+.header-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.choose-buttons {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.choose-buttons button {
+  margin-right: 50px;
+}
+
+.value-cards-row-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.value-cards-row-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.value-cards-row-2 .Card {
+  margin-left: 40px;
+}
