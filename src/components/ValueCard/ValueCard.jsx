@@ -1,11 +1,16 @@
-import { WiDaySunny } from "react-icons/wi";
+import React from "react";
 import "./value_card.css";
 
-function ValueCard({ caption, ammount }) {
+function ValueCard({ caption, ammount, icon = "" }) {
+  let dinamicIcon = "";
+  if (icon !== "") {
+    dinamicIcon = React.createElement(icon);
+  }
+
   return (
     <div className="card">
       <div className="caption-icon">
-        <WiDaySunny className="caption-icon__icon" />
+        {dinamicIcon}
         <p>{caption}</p>
       </div>
       <p className="value">{ammount}</p>

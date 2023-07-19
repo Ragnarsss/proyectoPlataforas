@@ -1,0 +1,12 @@
+.tarjeta-rajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid black;
+  height: 50px;
+}
+
+.tarjeta-rajo a:visited {
+  color: black;
+}
