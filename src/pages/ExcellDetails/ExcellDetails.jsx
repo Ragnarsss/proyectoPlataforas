@@ -51,4 +51,3 @@ function ExcellDetails() {
   );
 }
 export default ExcellDetails;
-ñ;

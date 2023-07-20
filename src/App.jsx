@@ -8,6 +8,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" Component={AdminDetailsView} />
+          <Route path="/inicio" Component={DetailsView} />
           <Route path="/excell_details" Component={ExcellDetails} />
           <Route path="/*" Component={ValueCard} />
         </Routes>
